@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+div.keys {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  div.key {
+    text-align: center;
+    color: white;
+    transition: all .07s ease;
+  }
+  
+  div.playing {
+    transform: scale(1.1);
+  }
